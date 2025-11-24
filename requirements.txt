@@ -1,11 +1,15 @@
-streamlit
-pandas
-numpy
-scikit-learn
-lightgbm
-xgboost
-joblib
-matplotlib
-openpyxl
-xlrd
-pickle5
+# Core
+streamlit==1.36.0
+pandas==2.2.2
+numpy==1.26.4
+scikit-learn==1.4.2
+joblib==1.4.0
+matplotlib==3.8.4
+
+# Excel readers
+openpyxl==3.1.2
+xlrd==2.0.1
+
+# Optional ML backends (recommended)
+lightgbm==4.3.0
+xgboost==1.8.1
